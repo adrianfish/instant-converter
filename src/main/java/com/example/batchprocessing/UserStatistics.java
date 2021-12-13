@@ -26,19 +26,11 @@ import lombok.NoArgsConstructor;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Topic {
+public class UserStatistics {
 
     private String id;
 
-    private Instant lastActivity;
+    private Instant lastPostDate;
 
-    private Timestamp lastActivity1;
-
-    private Instant created;
-
-    private Timestamp created1;
-
-    private Instant modified;
-
-    private Timestamp modified1;
+    private Timestamp lastPostDate1;
 }
